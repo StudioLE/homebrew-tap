@@ -7,10 +7,10 @@ class MountLuks < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/StudioLE/mount-luks/releases/download/v0.4.2/mount-luks-0.4.2-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "118a71e1fc1a6cc9454e00b15000b26aa43c057d52305a4b8990c19cf4280008"
+      sha256 "422afa83e3d7b04d4cb855610df06a6d5b3993963d86fc56a537e2f012a0b5ce"
     else
       url "https://github.com/StudioLE/mount-luks/releases/download/v0.4.2/mount-luks-0.4.2-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "337766a5f2d631532e3a7c6a93ecc33611eb4ea7694d5fe8b837d4322a3516de"
+      sha256 "672e48051bdbe5d550f37b695c8926b3dca038f3233415332998f7164badae8d"
     end
   end
 
