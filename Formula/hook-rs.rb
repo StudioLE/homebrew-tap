@@ -7,20 +7,20 @@ class HookRs < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/StudioLE/hook-rs/releases/download/v0.4.0/hook-rs-0.4.0-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "dd9b3db908a0f310b3e24dfea0ca2733ad9f476edbcc5764cc6b277c5ce63225"
+      sha256 "ff3498a9637fe69d1a3e364023ebc3a6eba6f30aee6cfd0c00e9e3364a9fc2d4"
     else
       url "https://github.com/StudioLE/hook-rs/releases/download/v0.4.0/hook-rs-0.4.0-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "61b1436951169c9415368503722b64579a814ea19bdd49fdccf70984fb3c4379"
+      sha256 "a86db5de1ae85fd433ae90ab4255bdd70ad6859a5ef32226be97703361550ac4"
     end
   end
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/StudioLE/hook-rs/releases/download/v0.4.0/hook-rs-0.4.0-aarch64-apple-darwin.tar.xz"
-      sha256 "1196cfcc614471497797c86bae41cc55d9b953e8080765834557c6ae5ccca022"
+      sha256 "d865d906ba06ffb753af10de77f3ac0d88fdbd47a3fe8efd524024f2631cedda"
     else
       url "https://github.com/StudioLE/hook-rs/releases/download/v0.4.0/hook-rs-0.4.0-x86_64-apple-darwin.tar.xz"
-      sha256 "c2b568abe1f22fdf503f514bdc5a3e5e33f0c20cc38664e85eaec425fe4e32e4"
+      sha256 "c80ee1efb50e69b226550e21f016e449baf7f7892d63f071e6870ea4a4b1675a"
     end
   end
 
