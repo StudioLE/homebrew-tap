@@ -2,25 +2,25 @@ class HookRs < Formula
   desc "Permission hooks for Claude Code with bash-aware command analysis"
   homepage "https://github.com/StudioLE/hook-rs"
   license "AGPL-3.0-only"
-  version "0.14.0"
+  version "0.14.1"
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.0/hook-rs-0.14.0-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c1a90920c869c1b0ef6657f59e0f3fe914efaaeca74f39e5aacc5dcf70f59671"
+      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.1/hook-rs-0.14.1-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3e5f46058f8099bf60a6a88aced5386263aba8d16ada04a02db9d7e24c912496"
     else
-      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.0/hook-rs-0.14.0-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fccbaeb04ea0b3f90945f8085a3cb407bea164cd03077160f215806601c56638"
+      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.1/hook-rs-0.14.1-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "67acb65660bb06b3ccee84bd53b071edec2bbdf03f79036b5286b2b7d15ff04d"
     end
   end
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.0/hook-rs-0.14.0-aarch64-apple-darwin.tar.xz"
-      sha256 "6e6e20bce6052ca9cff2daf01c1d9ababf15a5419e53bc7ba7c01c1cfe59a182"
+      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.1/hook-rs-0.14.1-aarch64-apple-darwin.tar.xz"
+      sha256 "20a476d8d2e9276a012e29842820f908c3b05d1d1319ce77e49f796022a5fdee"
     else
-      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.0/hook-rs-0.14.0-x86_64-apple-darwin.tar.xz"
-      sha256 "f4b302e3f477859d9e1e1c0641e05a5b3cc6a6d62fa6f8458a36b57fa1fe1cd7"
+      url "https://github.com/StudioLE/hook-rs/releases/download/v0.14.1/hook-rs-0.14.1-x86_64-apple-darwin.tar.xz"
+      sha256 "b50db6f8db3fca405a6ee0d7764f0d5e6b0131dd6416893130c12d7a6a493f7a"
     end
   end
 
