@@ -2,15 +2,15 @@ class MountLuks < Formula
   desc "A simple CLI tool to unlock and mount a LUKS encrypted disk."
   homepage "https://github.com/StudioLE/mount-luks"
   license "GPL-3.0-only"
-  version "0.7.2"
+  version "0.8.0"
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/StudioLE/mount-luks/releases/download/v0.7.2/mount-luks-0.7.2-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "16925500e0fb0ab0a2d61968ed97be0ee1cf6e7ee6e877602aadf0590aaaf9f8"
+      url "https://github.com/StudioLE/mount-luks/releases/download/v0.8.0/mount-luks-0.8.0-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4acd80f7a8bf2649922d8750e7d8b08739bb3c47967599ae422cdf7a2c680a3d"
     else
-      url "https://github.com/StudioLE/mount-luks/releases/download/v0.7.2/mount-luks-0.7.2-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8de327364e593f2c1c89267db5dbdd7ed63ba7e5edab2c425ca073a71e544f62"
+      url "https://github.com/StudioLE/mount-luks/releases/download/v0.8.0/mount-luks-0.8.0-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "980c1a6568488357bf6397e967e97671c7da6f77b74823499a1632e2ea93bb87"
     end
   end
 
