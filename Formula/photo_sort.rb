@@ -7,16 +7,16 @@ class PhotoSort < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/StudioLE/PhotoSort/releases/download/v0.3.5/photo_sort-0.3.5-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "dc5c3fc74d77b6b4f693f406ddd4e7ac3a04446bb031ce48bac12cca16fc0bd5"
+      sha256 "3ed1ad86c00d7f82ed25266a686cb62697dd5aa0dc25408cefc34659754245fd"
     else
       url "https://github.com/StudioLE/PhotoSort/releases/download/v0.3.5/photo_sort-0.3.5-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3972225a0000c6686058d62a84aeb28ce695beb680ce14e7063822b85572833c"
+      sha256 "d0c852b98523d15d788e6cf160a86b189868b3031b79a3ae7fe327d8fe20f956"
     end
   end
 
   on_macos do
     url "https://github.com/StudioLE/PhotoSort/releases/download/v0.3.5/photo_sort-0.3.5-aarch64-apple-darwin.tar.xz"
-    sha256 "9db5c0ddd1d9389b2ff000c4f3e786712b6d141e704d5ec4928659754bfab81a"
+    sha256 "151566f884c683a7bc851dee735024a3723748f56dd44ecb2a6e2303493c78cb"
   end
 
   def install
